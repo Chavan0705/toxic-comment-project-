@@ -1,0 +1,22 @@
+# Java Compiled Classes and Build Artifacts
+**/WEB-INF/classes/
+**/*.class
+*.log
+
+# Keep JDBC drivers and standard libraries in WEB-INF/lib
+!WebContent/WEB-INF/lib/
+
+# User-specific IDE configs (containing local file paths)
+.vscode/
+.settings/
+.project
+.classpath
+.metadata/
+.idea/
+*.iml
+*.iws
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
